@@ -16,6 +16,11 @@
 
 body {
 	background-color: #d53900;
+	background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	min-height: 90vh;
 }
 
 .divbod p, .divbod .sub1, .divbod .sub2,.divbod label {
@@ -49,18 +54,18 @@ h1 {
 }
 
 #top {
-	padding-top: 3rem;
-	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: .5rem;
 	background-color: #d53900;
 }
 
 .bottom {
-	padding-top: 3rem 0 0;
 	background-color: #d53900;
 }
 
-.bottom p {
+.bottom span {
 	color: #e7c211;
+	font-size: .7rem;
 }
 
 #gmap_canvas {
@@ -70,11 +75,11 @@ h1 {
 }
 
 #home, #projects, #tools, #contact {
-	background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+/*	background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-color: RGBA(243, 244, 246, 1);
-	background-size: cover;
+	background-size: cover;*/
 }
 
 #tools img {
@@ -96,12 +101,13 @@ h1 {
 .icon {
 	font-size: 1.5rem;
 	color: #e7c211;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .icon:hover {
 	color: #f8941c;
+	text-decoration: none;
 }
 
 .navlinks {
@@ -110,6 +116,7 @@ h1 {
 
 .navlinks:hover {
 	color: #f8941c;
+	text-decoration: none;
 }
 
 .navbtn {
@@ -134,13 +141,9 @@ html {
 
 .captionthis {
 	color: #d53900;
-	background-color: RGBA(243, 244, 246, .75);
+	background-color: RGBA(243, 244, 246, .7);
 }
 
 .captionthis p {
 	color: #d53900;
-}
-
-.carsize {
-	overflow: hidden;
 }
