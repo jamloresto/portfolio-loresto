@@ -1,0 +1,146 @@
+/*
+	color pallete
+		#d53900	-	red orange
+		#e7c211	-	yellow
+		#ed698e	-	pink
+		#f8941c	-	orange
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'K2D', sans-serif;
+	font-size: 16px;
+	color: #d53900;
+}
+
+body {
+	background-color: #d53900;
+}
+
+.divbod p, .divbod .sub1, .divbod .sub2,.divbod label {
+	color: #d53900;
+}
+
+h1 {
+	font-size: 54px;
+	font-weight: bold;
+	font-family: "Dancing Script", sans-serif;
+	color: #d53900;
+}
+
+.sub1 {
+	font-size: 32px;
+	font-family: "Anton", sans-serif;
+	color: #f8941c;
+}
+
+.sub2 {
+	font-size: 26px;
+	font-family: "Anton", sans-serif;
+	color: #d53900;
+}
+
+.quote {
+	font-family: "Dancing Script", cursive;
+	font-size: 30px;
+	color: #d53900;
+	text-align: center;
+}
+
+#top {
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+	background-color: #d53900;
+}
+
+.bottom {
+	padding-top: 3rem 0 0;
+	background-color: #d53900;
+}
+
+.bottom p {
+	color: #e7c211;
+}
+
+#gmap_canvas {
+	height: 40vh;
+	width: 100%;
+	padding: 1rem;
+}
+
+#home, #projects, #tools, #contact {
+	background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: RGBA(243, 244, 246, 1);
+	background-size: cover;
+}
+
+#tools img {
+	width: 80px;
+	height: auto;
+}
+
+.btncolor {
+	background-color: #d53900;
+	color: #e7c211;
+}
+
+.btncolor:hover {
+	background-color: #f8941c;
+	color: #d53900;
+	text-decoration: none;
+}
+
+.icon {
+	font-size: 1.5rem;
+	color: #e7c211;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.icon:hover {
+	color: #f8941c;
+}
+
+.navlinks {
+	color: #e7c211;
+}
+
+.navlinks:hover {
+	color: #f8941c;
+}
+
+.navbtn {
+	border-color: #e7c211;
+}
+
+.navbtn:hover {
+	border-color: #f8941c;
+}
+
+.iconbars {
+	color: #e7c211;
+}
+
+.iconbars:hover {
+	color: #f8941c;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.captionthis {
+	color: #d53900;
+	background-color: RGBA(243, 244, 246, .75);
+}
+
+.captionthis p {
+	color: #d53900;
+}
+
+.carsize {
+	overflow: hidden;
+}
