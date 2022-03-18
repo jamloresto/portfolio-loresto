@@ -35,7 +35,7 @@ h1 {
 }
 
 .sub1 {
-	font-size: 32px;
+	font-size: 36px;
 	font-family: "Anton", sans-serif;
 	color: #f8941c;
 }
@@ -141,9 +141,12 @@ html {
 
 .captionthis {
 	color: #d53900;
-	background-color: RGBA(243, 244, 246, .7);
+	font-size: 16px;
+	background-color: RGBA(243, 244, 246, .8);
 }
 
-.captionthis p {
+.captionthis2 {
 	color: #d53900;
+	font-size: 18px;
+	background-color: RGBA(243, 244, 246, .9);
 }
