@@ -4,6 +4,7 @@
 		#e7c211	-	yellow
 		#ed698e	-	pink
 		#f8941c	-	orange
+		#FAEFDE
 */
 
 * {
@@ -16,14 +17,20 @@
 
 body {
 	background-color: #d53900;
-	background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	/*background-image: url(https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);*/
+	/*background-image: url(https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg);*/
+	background-image: url(https://images.pexels.com/photos/4210787/pexels-photo-4210787.jpeg);
+	/*background-image: url(https://images.pexels.com/photos/606676/pexels-photo-606676.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);*/
+	/*background-blend-mode: overlay;*/
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
-	min-height: 90vh;
+	/*background-color: RGBA(255, 255, 255, .8);*/
+	background-color: RGBA(213, 57, 0, .2);
+	min-height: 95vh;
 }
 
-.divbod p, .divbod .sub1, .divbod .sub2,.divbod label {
+.divbod p, .divbod .sub1, .divbod .sub2, .divbod label {
 	color: #d53900;
 }
 
@@ -83,9 +90,22 @@ h1 {
 }
 
 #tools img {
-	width: 80px;
+	width: 90px;
 	height: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	transition:  transform 250ms;
 }
+
+#tools img:hover {
+	transform:  translateY(-20px);
+}
+
+/*#projects {
+	max-height: 10vh;
+}*/
 
 .btncolor {
 	background-color: #d53900;
@@ -149,4 +169,56 @@ html {
 	color: #d53900;
 	font-size: 18px;
 	background-color: RGBA(243, 244, 246, .9);
+} 
+
+.captionthis3 {
+	color: #d53900;
+	font-size: 8px;
+	background-color: RGBA(243, 244, 246, .9);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.projectCard {
+  min-height:  100%;
+  box-shadow: 8px 8px rgba(121, 121, 121, .3);
+  background-color: rgba(255, 232, 255, .75);
+}
+
+.card-img-top {
+}
+
+.card-title {
+	font-weight: bold;
 }
