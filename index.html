@@ -12,50 +12,336 @@
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=K2D&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg fixed-top" id="top">
+	<!-- START OF NAVBAR -->
+	<nav class="navbar navbar-expand-sm fixed-top" id="top">
 	  <button class="navbar-toggler navbtn" type="button" data-toggle="collapse" data-target="#topnav">
 	    <i class="fa-solid fa-bars iconbars"></i>
 	  </button>
 	  <div class="collapse navbar-collapse" id="topnav">
 	    <ul class="navbar-nav m-auto">
 	      <li class="nav-item">
-	        <a class="nav-link navlinks" href="#">Home</a>
+	        <a class="nav-link navlinks" href="#home">Home</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link navlinks" href="./resources/projects.html">Projects</a>
+	        <a class="nav-link navlinks" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link navlinks" href="./resources/tools.html">Tools</a>
+	        <a class="nav-link navlinks" href="#tools">Tools</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link navlinks" href="./resources/contact.html">Contact</a>
+	        <a class="nav-link navlinks" href="#contact">Contact</a>
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
-	<!-- end of navbar -->
-	<!-- start of intro -->
-	<div class="container-fluid my-4 pt-4" id="home">
+	<!-- END OF NAVBAR -->
+
+
+	<!-- START OF INTRO -->
+	<div class="container-fluid my-4 pt-4 about-section" id="home">
 		<div class="row flex-column align-items-center my-4">
-			<div class="col-6 col-md-3">
+			<div class="col-6 col-sm-4 col-lg-3 mt-4 pt-3">
 				<img src="./resources/images/jloresto.jpg" class="img-fluid rounded-circle mt-5">
 			</div>
-			<div class="col-12 text-center">
+			<div class="col-11 text-center">
 				<h1 class="head pt-3">Jessa Mae Loresto</h1>
-				<h3 class="sub1 pb-2">Graphic Designer · Full Stack Web Developer · Video Editor</h3>
+				<h3 class="sub1 pb-3 glow">Graphic Designer · Full Stack Web Developer · Video Editor</h3>
 			</div>
-			<div class="col-12 col-md-8 text-center pb-3">
-				<p class="captionthis2 p-3">
+			<div class="col-11 col-md-8 text-center pb-3">
+				<p class="about-text p-3">
 					Jessa Mae Loresto is a registered Chemical Engineer who has a background in Process Engineering, Quality Control and Quality Assurance. She also has a background in Human Resources specializing in General Administration, Talent Acquisition, and Learning and Development. Her adept skills in various computer programs and fascination in designing has led in her decision to become a Full Stack Web Developer.
-				</p>
-				
+				</p>	
+			</div>
 		</div>
 	</div>
-	<!-- start of footer -->
+	<!-- END OF INTRO -->
+
+
+	<!-- START OF PROJECTS -->
+	<div class="container-fluid mt-4 mb-1" id="projects">
+		<div class="row justify-content-center">
+			<div class="col-12 pt-5 text-center">
+				<h2 class="sub1 pt-5 order-1 order-md-1">Projects and Other Creations</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center py-5">
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/qBGc1jQ/sweet-Things-Logo-animated.gif" class="card-img-top p-4" alt="Sweet Things">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+						    <h5 class="card-title">Sweet Things <i class="fa-solid fa-medal" data-toggle="tooltip" data-placement="top" title="Best Capstone 3"></i> <span class="badge badge-success"  data-toggle="tooltip" data-placement="top" title="launched April 21, 2022">New</span></h5>
+						    <p class="card-text">A full-stack e-commerce web app using the improved E-commerce API from capstone 2 project. With full responsiveness across mobile, tablet and desktop screen sizes. Awarded as Best Capstone 3 in Zuitt's Full-Stack Web Development Course Batch 169.</p>
+						    <h6>Tools used:</h6>
+						    <ul class="pl-5">
+						    	<li>MERN (MongoDB, Express, ReactJS, NodeJS)</li>
+						    	<li>Logo created through Adobe Photoshop</li>
+						    	<li>Back-end hosted on Heroku and MongoDB</li>
+						    	<li>Front-end hosted on Vercel</li>
+						    </ul>
+						    <a href="https://sweet-things.vercel.app/" class="btn btncolor" target="blank">Visit Sweet Things</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="./resources/images/p4.png" class="card-img-top p-4" alt="E-commerce API">
+						</div>
+						<div class="col-10 col-xl-5 py-3">
+						    <h5 class="card-title">E-commerce API <span class="badge badge-success"  data-toggle="tooltip" data-placement="top" title="launched April 7, 2022">New</span></h5>
+						    <p class="card-text">A full-stack e-commerce web app using the improved E-commerce API from capstone 2 project. With full responsiveness across mobile, tablet and desktop screen sizes. Awarded as Best Capstone 3 in Zuitt's Full-Stack Web Development Course Batch 169.</p>
+						    <h6>Tools used:</h6>
+						    <ul class="pl-5">
+						    	<li>MERN (MongoDB, Express, ReactJS, NodeJS)</li>
+						    	<li>Logo created through Adobe Photoshop</li>
+						    	<li>Back-end hosted on Heroku and MongoDB</li>
+						    	<li>Front-end hosted on Vercel</li>
+						    </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="./resources/images/p1.png" class="card-img-top p-4" alt="Portfolio">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">Portfolio <span class="badge badge-success"  data-toggle="tooltip" data-placement="top" title="launched March 25, 2022">New</span></h5>
+							<p class="card-text">First capstone project for front-end web development—a web developer portfolio. With full responsiveness across mobile, tablet and desktop screen sizes.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Bootstrap</li>
+								<li>Hosted on GitHub</li>
+							</ul>
+							<a href="../index.html" class="btn btncolor">Visit home</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="./resources/images/p6.png" class="card-img-top p-4" alt="ChEnemalaya 2019 Entry">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">ChEnemalaya 2019 Entry <i class="fa-solid fa-medal" data-toggle="tooltip" data-placement="top" title="Best Video & People's Choice Award"></i></h5>
+							<p class="card-text">PIChE Bataan Chapter's ChEnemalaya 2019 Entry. <strong>Best Video</strong> and <strong>People's Choice Award</strong> in the Professional Category of the Philippine Institute of Chemical Engineers' ChEnemalaya 2019.</p>
+							<p>Director, Writer and Editor.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>Final Cut Pro</li>
+							</ul>
+							 <a href="https://www.facebook.com/piche.national/videos/357301382342474" class="btn btncolor" target="blank">View Video</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/hH1NNhN/pichenewsletters.gif" class="card-img-top p-4" alt="The Chain Front Pages">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">The Chain - PIChE Bataan Chapter Newsletter</h5>
+							<p class="card-text">Editor-in-Chief from 2019 to 2021 of the Philippine Institute of Chemical Engineers Bataan Chapter's Newsletter.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>Adobe Photoshop</li>
+								<li>Pages</li>
+							</ul>
+							<a href="https://tinyurl.com/TheChain2020-Apr-Jun" class="navlinks" target="blank">April to June 2020 Issue</a> ||
+							<a href="https://tinyurl.com/TheChain2020-Jan-Mar" class="navlinks" target="blank">January to March 2020 Issue</a> ||
+							<a href="https://www.facebook.com/media/set/?set=a.672480843524563&type=3" class="navlinks" target="blank">November to December 2019 Issue</a> ||
+							<a href="https://tinyurl.com/TheChain2019-Sep-Oct" class="navlinks" target="blank">September to October 2019 Issue</a> ||
+							<a href="https://tinyurl.com/TheChain2019-Jun-Aug" class="navlinks" target="blank">June to August 2019 Issue</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/RQmVPy2/DMAP-Improvement.gif" class="card-img-top p-4" alt="DMAP Process Map Improvement">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">Data Management and Accessibility Project</h5>
+							<p class="card-text">Created a Dependable, Manageable, Accessible and Precise Database by programming MS Excel files and modifying access and restrictions through the use of the company's Local Area Network Connection.</p>
+							<p>This is in order to minimize waste and resources, and increase departments productivity.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>MS Excel</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/wzYVy3r/PICh-E-Bataan-Chapter-Logo.png" class="card-img-top p-4" alt="PIChE Bataan Chapter Logo">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">PIChE Bataan Chapter logo</h5>
+							<p class="card-text">Philippine Institute of Chemical Engineers Bataan Chapter marks its 35th anniversary with a theme of “Quintessence: 35 Years of Embodying Excellence Through Dynamic Initiatives and Pursuits” with a brand new logo.</p>
+							<p>Initiated and designed the remodeled logo of PIChE Bataan Chapter to better distinguish the chapter (September 2018).</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>Adobe Photoshop</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/72W93Hh/NAFC-Logo-Entry.png" class="card-img-top p-4" alt="NAFC Logo Design Contest Entry">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">NAFC logo <i class="fa-solid fa-medal" data-toggle="tooltip" data-placement="top" title="Logo Design Contest Winner"></i></h5>
+							<p class="card-text">Winner of the National Agricultural and Fishery Council (NAFC) Logo Design Contest last November 2012. The logo is now used by the Philippine Council for Agriculture and Fisheries (PCAF), previously NAFC.</p>
+							<p>The refurbished logo bears a representation of people with linked arms forming a circle around symbols of agriculture and fisheries, with the name of the agency encircling the illustrations into one whole imagery.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>Adobe Photoshop</li>
+							</ul>
+							<a href="https://www.yumpu.com/en/document/read/18013191/naf-council-endorses-agri-fisheries-modernization-plan-national-" class="btn btncolor" target="blank">View NAFC Oct-Dec 2012 Newsletter [page 7]</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 col-md-5 m-3">
+				<div class="card projectCard p-2 m-3">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-12 col-xl-6">
+							<img src="https://i.ibb.co/7k30MvG/CEAT-Centennial-Logo.png" class="card-img-top p-4" alt="CEAT Centennial Logo">
+						</div>
+						<div class="col-10 col-xl-6 py-3">
+							<h5 class="card-title">CEAT Centennial Logo <i class="fa-solid fa-medal" data-toggle="tooltip" data-placement="top" title="Centennial Logo Design Contest Winner"></i></h5>
+							<p class="card-text">Winner of the University of the Philippines - Los Baños College of Engineering and Agro-Industrial Technology's Centennial Logo Design Contest last October 2011.</p>
+							<p>The gear represents engineering and technology as a whole. When the teeth of the gear are omitted, the structure inside of the gear shows a steering wheel representing continuous drive. The oblation represents excellence. The number 1, in 100 is an arrow directing upwards symbolizing improvement. Maroon and green are the colors of the university which molds every person involved in CEAT-UPLB. Golden yellow represents aspiration towards a brighter future.</p>
+							<h6>Tools used:</h6>
+							<ul class="pl-5">
+								<li>Adobe Photoshop</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END OF PROJECTS -->
+
+
+	<!-- START OF TOOLS -->
+	<div>
+		<div class="container-fluid tools-section" id="tools">
+			<div class="row justify-content-center mb-5 p-5">
+				<div class="col-12 pt-4 text-center">
+					<h2 class="sub1 pt-5 order-1 order-md-1">Tools</h2>
+				</div>
+				<div class="col-12 col-md-10 text-center order-2 order-md-2">
+					<h3 class="sub2 py-3">Developer Tools</h2>
+				</div>
+				<div class="col-12 col-md-10 text-center order-4 order-md-4">
+					<h3 class="sub2 py-3">Other Tools</h2>
+				</div>
+				<div class="col-12 col-md-8 col-lg-6 d-flex flex-wrap justify-content-center align-items-start mb-4 order-3 order-md-3">
+					<img src="./resources/images/logo-html5-cute.png" title="HTML5">
+					<img src="./resources/images/logo-css3-cute.png" title="CSS3">
+					<img src="./resources/images/logo-javascript-cute.png" title="JavScript">
+					<img src="./resources/images/logo-mongodb-cute.png" title="MongoDB">
+					<img src="./resources/images/logo-expressjs-cute.png" title="Express.js">
+					<img src="./resources/images/logo-react-cute.png" title="React.js">
+					<img src="./resources/images/logo-nodejs-cute.png" title="Node.js">
+					<img src="./resources/images/logo-bootstrap-cute.png" title="Bootstrap">
+					<img src="./resources/images/logo-sublime-text-3-cute.png" title="Sublime Text">
+					<img src="./resources/images/logo-git-cute.png" title="Git">
+					<img src="./resources/images/logo-rest-cute.png">
+					<img src="./resources/images/logo-heroku-cute.png" title="Heroku">
+					<img src="./resources/images/logo-java-cute.png" title="Java">
+					<img src="./resources/images/logo-mysql-cute.png" title="MySQL">
+					<img src="./resources/images/logo-springboot-cute.png" title="Spring Boot">
+					<img src="./resources/images/logo-postman-cute.png" title="Postman">
+					<img src="./resources/images/logo-github-cute.png" title="GitHub">
+					<img src="./resources/images/logo-gitlab-cute.png" title="GitLab">
+					<img src="./resources/images/logo-gitlab-ci-cd.png">
+				</div>
+				<div class="col-12 col-md-8 col-lg-6 d-flex flex-wrap justify-content-center align-items-center order-5 order-md-5">
+					<img src="./resources/images/logo-photoshop-cute.png" title="Photoshop">
+					<img src="./resources/images/logo-finalcut-cute.png" title="Final Cut Pro">
+					<img src="./resources/images/logo-pages-cute.png" title="Pages">
+					<img src="./resources/images/logo-excel-cute.png" title="MS Excel">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END OF TOOLS -->
+
+
+	<!-- START OF CONTACT -->
+	<div>
+		<div class="container-fluid mt-4 mb-1 pt-5 pb-1 contact-section" id="contact">
+			<div class="row justify-content-center mb-5 py-5">
+				<div class="col-11 col-md-8 divbod">
+					<h3 class="text-center py-4 sub2">Location Map</h3>
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=philippines&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div class="col-11 col-md-8 divbod">
+					<h3 class="text-center py-4 sub2">Message Me</h3>
+					<div class="contactlinks text-center">
+						<div>
+							<a href="https://www.linkedin.com/in/jmtloresto/" target="blank">
+								Via LinkedIn: linkedin.com/in/jmtloresto/
+							</a>
+						</div>
+				</div>
+
+				<!-- <div class="col-10 col-md-5 divbod">
+					<h3 class="text-center py-4 sub2">Contact Me</h3>
+					<form class="mx-3 pb-5" id="contactForm">
+						<div class="form-group">
+							<label for="txt-username">Name:</label>
+							<input type="text" name="name" id="txt-username" placeholder="Enter Full Name" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label for="txt-email">Email:</label>
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control" required>
+						</div>					
+						<div class="form-group">
+							<label for="txt-message">Message:</label>
+							<textarea class="form-control" id="txt-message" rows="4"></textarea>
+						</div>
+						<button class="btn btn-block btncolor">
+							Submit
+						</button>					
+					</form>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF CONTACT -->
+
+
+	<!-- START OF FOOTER -->
 	<footer class="bottom text-center py-1 fixed-bottom">
 		<div class="row d-flex justify-content-center">
 			<div class="col-12 pb-2">
-				<span>JESSA MAE LORESTO</span>
+				<span>&copy; 2022 | JESSA MAE LORESTO</span>
 			</div>
 			<div class="col-12">
 				<a href="https://www.instagram.com/madamjammin" target="blank">
@@ -69,6 +355,9 @@
 				</a>
 				<a href="https://gitlab.com/jam.loresto" target="blank">
 					<i class="fa-brands fa-gitlab icon"></i>
+				</a>
+				<a href="https://github.com/jamloresto" target="blank">
+					<i class="fa-brands fa-github icon"></i>
 				</a>
 			</div>
 		</div>
