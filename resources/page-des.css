@@ -115,10 +115,11 @@ html {
 	letter-spacing: 5px;
 	font-family: 'K2D', sans-serif;
 	text-transform: uppercase;
-	margin-bottom: 180px;
-	padding: 3rem 2rem;
+	margin-bottom: 25vh;
+	padding: 5rem 3rem;
 	border-radius: .25rem;
-	background-color: RGBA(213, 57, 0, .9);
+	background-color: RGBA(250, 239, 222, .2);
+	border: solid 2px #FAEFDE;
 	opacity: 0;
 	animation: ani2 1s ease-out 1.5s forwards;
 }
@@ -137,7 +138,7 @@ html {
 }
 
 .wrapper-text h5, .wrapper-text h6 {
-	animation: ani2 0.75s ease-out 4s forwards;
+	animation: ani2 0.75s ease-out 3s forwards;
 }
 
 @keyframes ani2 {
@@ -278,6 +279,38 @@ html {
 .navlinks:hover {
 	color: #f8941c;
 	text-decoration: none;
+}
+
+.toplinks {
+	color: #FAEFDE;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.toplinks:hover {
+	color: #FAEFDE;
+	text-decoration: none;
+}
+
+a.underline-left {
+	position: relative;
+}
+
+a.underline-left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FAEFDE;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.underline-left:hover:before {
+  visibility: visible;
+  width: 93%;
 }
 
 .navbtn {
