@@ -1,7 +1,7 @@
 /*
 	color pallete
 		#d53900	-	red orange
-		#FAEFDE	-	yellow
+		#e7c211	-	yellow
 		#ed698e	-	pink
 		#f8941c	-	orange
 		#FAEFDE
@@ -160,7 +160,7 @@ html {
 }
 
 .sub1 {
-	font-size: 36px;
+	font-size: 32px;
 	font-family: "Anton", sans-serif;
 	color: rgba(250, 239, 222, 1);
 	text-shadow: 3px 3px #d53900;
@@ -232,11 +232,12 @@ html {
 	height: auto;
 	padding: .5rem;
 	margin: .5rem;
-	transition:  transform 250ms;
+	transition:  transform 500ms;
 }
 
 #tools img:hover {
-	transform:  translateY(-25px);
+	/*transform:  translateY(-25px);*/
+	transform:  scale(150%);
 }
 
 .btncolor {
