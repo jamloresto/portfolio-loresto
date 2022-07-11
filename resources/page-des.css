@@ -16,13 +16,12 @@
 }
 
 body {
-	background-color: #d53900;
-	background-image: url(https://images.pexels.com/photos/4210787/pexels-photo-4210787.jpeg);
+	/*background-image: url(https://images.pexels.com/photos/4210787/pexels-photo-4210787.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
-	background-color: RGBA(213, 57, 0, .2);
+	background-attachment: fixed;*/
+	background-color: #eeddcc;
 	min-height: 95vh;
 }
 
@@ -59,6 +58,7 @@ html {
 .about-section {
 	background-image: url(https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 	background-repeat: no-repeat;
+	background-attachment: fixed; /*parallax effect*/
 	background-size: cover;
 	background-position: center;
 	min-height: 95vh;
@@ -238,6 +238,71 @@ html {
 #tools img:hover {
 	/*transform:  translateY(-25px);*/
 	transform:  scale(150%);
+}
+
+.projectcontainer {
+  position: relative;
+  width: 50%;
+}
+
+.projectimage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.middle-title {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projectcontainer:hover .projectimage {
+  opacity: 0.5;
+}
+
+.projectcontainer:hover .middle {
+  opacity: 1;
+}
+
+.projectcontainer:hover .middle-title {
+  opacity: 1;
+}
+
+.view {
+  background-color: #d53900;
+  color: #FAEFDE;
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.view-title {
+  color: #d53900;
+  font-size: 1.8rem;
+  font-family: "Anton", sans-serif;
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: #FAEFDE;
 }
 
 .btncolor {
