@@ -172,7 +172,12 @@ html {
 	color: #d53900;
 	font-size: 18px;
 	background-image: linear-gradient(to right, rgba(250,239,222,0), rgba(250,239,222,0.6), rgb(250,239,222), rgba(250,239,222,0.6), rgba(250,239,222,0));
-} 
+}
+
+.about-text > span {
+	font-weight: 800;
+	font-size: 22px;
+}
 
 .sub2 {
 	font-size: 26px;
@@ -181,6 +186,14 @@ html {
 	text-shadow: 2px 2px #d53900;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #d53900;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-white{
+	color: #FAEFDE;
 }
 
 @media (max-width:  600px) {
@@ -230,8 +243,8 @@ html {
 #tools img {
 	width: 80px;
 	height: auto;
-	padding: .5rem;
-	margin: .5rem;
+	margin: 0.75rem 1.25rem;
+	padding: 0.25rem;
 	transition:  transform 500ms;
 }
 

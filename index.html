@@ -45,12 +45,12 @@
 					<img src="https://images.pexels.com/photos/36464/sky-clouds-clouds-form-cumulus-clouds.jpg" alt="" class="wrapper-image">
 					<div class="wrapper-text d-none d-md-block">
 						<h1 class="wrapper-text-text">jam loresto</h1>
-						<h5 class="wrapper-text-text mt-3">Web Developer · Graphic Designer · Video Editor</h5>
+						<h5 class="wrapper-text-text mt-3">Front End Developer · Video Editor · Chemical Engineer</h5>
 					</div>
 					<div class="wrapper-text d-block d-md-none">
 						<h3 class="wrapper-text-text">jam loresto</h3>
-						<h6 class="wrapper-text-text">· Graphic Designer ·</h6>
-						<h6 class="wrapper-text-text">· Web Developer ·</h6>
+						<h6 class="wrapper-text-text">· Front End Developer ·</h6>
+						<h6 class="wrapper-text-text">· Chemical Engineer ·</h6>
 						<h6 class="wrapper-text-text">· Video Editor ·</h6>
 					</div>
 				
@@ -59,18 +59,21 @@
 
 
 		<!-- START OF ABOUT -->
-		<div class="container-fluid pt-4 about-section intro-section" id="about">
-			<div class="row justify-content-center align-items-center my-4">
-				<div class="col-6 col-sm-5 col-lg-3 mt-4 pt-3">
+		<div class="container-fluid pt-4 about-section intro-section" id="about" style="position: relative;">
+			<div class="row justify-content-center align-items-middle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+				<div class="col-8 col-sm-5 col-md-4 mt-4 pt-3">
 					<img src="./resources/images/jloresto.jpg" class="img-fluid rounded-circle p-4">
 				</div>
 				<div class="col-11 text-center">
 					<h1 class="head pt-3">Jessa Mae Loresto</h1>
-					<h3 class="sub1 pb-3 glow">Web Developer · Graphic Designer · Video Editor</h3>
+					<h3 class="sub1 pb-3 glow">Front End Developer · Video Editor · Chemical Engineer</h3>
 				</div>
-				<div class="col-10 col-md-7 text-center pb-3">
-					<p class="about-text p-3">
-						Jessa Mae Loresto is a registered Chemical Engineer who has a background in Process Engineering, Quality Control and Quality Assurance. She also has a background in Human Resources specializing in General Administration, Talent Acquisition, and Learning and Development. Her adept skills in various computer programs and fascination in designing has led in her decision to become a Full Stack Web Developer.
+				<div class="col-10 text-center pb-3">
+					<p class="about-text py-3">
+						<span>Jam</span> is a registered Chemical Engineer who has a background in Process Engineering, Quality Control and Quality Assurance. She also has a background in Human Resources specializing in General Administration, Talent Acquisition, and Learning and Development. Her adept skills in various computer programs and fascination in designing has led in her decision to become a <span>Web Developer</span>.
+						<br/>
+						<br/>
+						She initially worked with My Own Staff as a Web Designer. She has done a number of Wordpress sites catering US-based clients. She is currently working as a Front-end Developer, mainly using React, working on projects from Australian-based and other global clients.
 					</p>	
 				</div>
 			</div>
@@ -86,6 +89,54 @@
 				</div>
 			</div>
 			<div class="row justify-content-center py-5 mb-5">
+				<!-- BLACKSTOCK DEVELOPMENT -->
+				<div class="col-12 col-sm-5 col-md-3 col-lg-2 m-1 projectcontainer">
+					<img src="./resources/images/wip.png" class="card-img-top p-4 projectimage" alt="Full Moon Investments" data-toggle="modal" data-target="#">
+					<div class="middle-title">
+						<div class="view-title" data-toggle="modal" data-target="#">
+							Anchortree Capital Website
+						</div>
+					</div>
+				</div>
+				<!-- BLACKSTOCK DEVELOPMENT -->
+				<div class="col-12 col-sm-5 col-md-3 col-lg-2 m-1 projectcontainer">
+					<img src="./resources/images/p10.png" class="card-img-top p-4 projectimage" alt="Full Moon Investments" data-toggle="modal" data-target="#project_bsi">
+					<div class="middle-title">
+						<div class="view-title" data-toggle="modal" data-target="#project_bsi">
+							Blackstock Development Funds Website
+						</div>
+					</div>
+					<div class="middle">
+						<div class="view" data-toggle="modal" data-target="#project_bsi">
+							VIEW DETAILS
+						</div>
+					</div>
+					<div class="modal fade" id="project_bsi" tabindex="-1" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">
+										Blackstock Development Funds Website 
+										<span class="badge badge-success"  data-toggle="tooltip" data-placement="top" title="deployed October 07, 2022">Deployed</span>
+									</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									
+									<p>Designed client&apos;s investment website using Adobe Photoshop and implemented the approved design using Wordpress. Responsive across mobile, tablet and desktop screen sizes.</p>
+									<h6>Tools used:</h6>
+									<ul class="pl-5">
+										<li>Photoshop</li>
+										<li>Wordpress</li>
+									</ul>
+									<img src="./resources/images/p9.png" class="card-img-top p-4" alt="Blackstock Development">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- FULL MOON INVESTMENTS -->
 				<div class="col-12 col-sm-5 col-md-3 col-lg-2 m-1 projectcontainer">
 					<img src="./resources/images/p7.png" class="card-img-top p-4 projectimage" alt="Full Moon Investments" data-toggle="modal" data-target="#project_fmi">
@@ -105,7 +156,7 @@
 								<div class="modal-header">
 									<h5 class="modal-title">
 										Full Moon Investments Website 
-										<span class="badge badge-warning"  data-toggle="tooltip" data-placement="top" title="In Progress since July 4, 2022">Ongoing</span>
+										<span class="badge badge-success"  data-toggle="tooltip" data-placement="top" title="deployed July 25, 2022">Deployed</span>
 									</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
@@ -121,7 +172,6 @@
 										<li>Photoshop</li>
 									</ul>
 									<img src="./resources/images/p8.png" class="card-img-top p-4" alt="Full Moon Investments">
-									<a href="https://fminvestments.co/" class="btn btncolor" target="blank">Visit Full Moon Investments</a>
 								</div>
 							</div>
 						</div>
@@ -159,7 +209,7 @@
 									<ul class="pl-5">
 										<li>MERN (MongoDB, Express, ReactJS, NodeJS)</li>
 										<li>Logo created through Adobe Photoshop</li>
-										<li>Back-end hosted on Heroku</li>
+										<li>Back-end hosted on Vercel (previously on Heroku)</li>
 										<li>Front-end hosted on Vercel</li>
 									</ul>
 									<a href="https://sweet-things.vercel.app/" class="btn btncolor" target="blank">Visit Sweet Things</a>
@@ -508,27 +558,25 @@
 					</div>
 					<div class="col-12 col-md-10 col-lg-6 d-flex flex-wrap justify-content-center align-items-start mb-4 order-3 order-md-3">
 						<img src="./resources/images/logo-html5-cute.png" title="HTML5">
-						<img src="./resources/images/logo-css3-cute.png" title="CSS3">
 						<img src="./resources/images/logo-javascript-cute.png" title="JavScript">
+						<img src="./resources/images/logo-css3-cute.png" title="CSS3">
+						<img src="./resources/images/logo-sass-cute.png" title="SASS">
+						<img src="./resources/images/logo-bootstrap-cute.png" title="Bootstrap">
 						<img src="./resources/images/logo-mongodb-cute.png" title="MongoDB">
 						<img src="./resources/images/logo-expressjs-cute.png" title="Express.js">
 						<img src="./resources/images/logo-react-cute.png" title="React.js">
 						<img src="./resources/images/logo-nodejs-cute.png" title="Node.js">
-						<img src="./resources/images/logo-bootstrap-cute.png" title="Bootstrap">
-						<img src="./resources/images/logo-sublime-text-3-cute.png" title="Sublime Text">
-						<img src="./resources/images/logo-git-cute.png" title="Git">
 						<img src="./resources/images/logo-rest-cute.png" title="REST">
+						<img src="./resources/images/logo-postman-cute.png" title="Postman">
 						<img src="./resources/images/logo-heroku-cute.png" title="Heroku">
+						<img src="./resources/images/logo-gitlab-cute.png" title="GitLab">
+						<img src="./resources/images/logo-github-cute.png" title="GitHub">
+						<img src="./resources/images/logo-wordpress-cute.png" title="Wordpress">
 						<img src="./resources/images/logo-mysql-cute.png" title="MySQL">
-						<img src="./resources/images/logo-java-cute.png" title="Java">
-						<img src="./resources/images/logo-springboot-cute.png" title="Spring Boot">
 						<img src="./resources/images/logo-php-cute.png" title="PHP">
 						<img src="./resources/images/logo-laravel-cute.png" title="Laravel">
-						<img src="./resources/images/logo-postman-cute.png" title="Postman">
-						<img src="./resources/images/logo-wordpress-cute.png" title="Wordpress">
-						<img src="./resources/images/logo-github-cute.png" title="GitHub">
-						<img src="./resources/images/logo-gitlab-cute.png" title="GitLab">
-						<img src="./resources/images/logo-gitlab-ci-cd.png" title="CI/CD">
+						<img src="./resources/images/logo-java-cute.png" title="Java">
+						<img src="./resources/images/logo-springboot-cute.png" title="Spring Boot">
 					</div>
 					<div class="col-12 col-md-8 col-lg-6 d-flex flex-wrap justify-content-center align-items-center order-5 order-md-5">
 						<img src="./resources/images/logo-photoshop-cute.png" title="Photoshop">
